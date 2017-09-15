@@ -998,6 +998,20 @@ a.contact-us-link:hover {
   color: #fff;
 }
 
+/* Try MyGreenCar button */
+#home-try-mygreencar {
+  width:400px;
+  height:100px;
+  font-size: 28px;
+  line-height: 76px;
+  transition: background-color 0.3s;
+}
+
+#home-try-mygreencar:hover {
+  color: #333333;
+  background-color: #eeeeee;
+}
+
 .nersc-row img {
   width: 310px;
   max-width: 95vw;
