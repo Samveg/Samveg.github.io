@@ -128,7 +128,7 @@ function landy_scripts() {
 	wp_enqueue_style( 'hover', get_template_directory_uri() . "/includes/css/hover.min.css", array(), '', 'screen' );
 
 	//Google Fonts
-	wp_enqueue_style('google_montserrat', 'http://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,600,700|Raleway:400,700');
+	wp_enqueue_style('google_montserrat', 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,400,600,700|Raleway:400,700');
 
 	//Font Awesome css
 	wp_enqueue_style( 'font_awesome_css', get_template_directory_uri() . "/includes/fontawesome/font-awesome.css", array(), '0.1', 'screen' );
