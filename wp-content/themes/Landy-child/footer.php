@@ -207,6 +207,7 @@
 </div>
 </div>
 <!-- Load the scripts -->
-<?php wp_footer(); ?>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+	<?php wp_footer(); ?>
 </body>
 </html>
