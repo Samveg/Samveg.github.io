@@ -10,7 +10,7 @@
     License URI: http://www.gnu.org/licenses/gpl-2.0.html
     Template: Landy
 -------------------------------------------------------------------------------------*/
-@font-face{font-family:"Lovelo Black";src:url("/wp-content/themes/Landy-Child/src/fonts/lovelo/Lovelo Black.otf");}
+@font-face{font-family:"Lovelo Black";src:url("/wp-content/themes/Landy-child/src/fonts/lovelo/Lovelo Black.otf");}
 .col-third,
 .col--half{position:relative;width:100%;min-height:1px;padding-right:1%;padding-left:1%;display:block;float:left;}
 .col-third{max-width:33%;}
