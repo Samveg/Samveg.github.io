@@ -10,7 +10,17 @@
 
 		gtag('config', 'UA-108620700-1');
 	</script>
-
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"url": "http://mygreencar.com",
+		"logo": "http://mygreencar.com/wp-content/uploads/2017/10/large-logo-MGC.png",
+		"sameAs": [
+			"https://twitter.com/MyGreenCar"
+		]
+	}
+	</script>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
