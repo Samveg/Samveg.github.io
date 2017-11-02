@@ -63,6 +63,8 @@ h1, h2,
 }
 @media(max-width:399px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/vertical_arthur_rosenfeld.jpg") !important;padding-top:72%;padding-bottom:72%;}
 }
+@media(max-width:768px){#ev-batteries img{content:url("/wp-content/uploads/2017/10/soc-650x650.png");}
+}
 @media(max-width:768px){.col-third,
 .col-half{width:100%;max-width:100%;margin-bottom:30px;}
 .col-third{margin-bottom:30px;}
