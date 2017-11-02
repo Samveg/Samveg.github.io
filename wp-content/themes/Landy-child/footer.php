@@ -207,7 +207,7 @@
 </div>
 </div>
 <!-- Load the scripts -->
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 	<?php wp_footer(); ?>
 	<script>
 		jQuery(document).ready( function() {
