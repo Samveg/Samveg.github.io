@@ -18,6 +18,8 @@
 .col-first{padding-left:0;}
 .col-last{padding-right:0;}
 body{font-family:'Raleway';}
+#dynamic{opacity: 0;}
+#dynamic.show{opacity: 0.97;}
 h1, h2,
 #header h2,
 #header .lead,
