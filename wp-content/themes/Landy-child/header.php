@@ -21,7 +21,6 @@
 		]
 	}
 	</script>
-
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
@@ -312,6 +311,16 @@
 			 			<a target="_blank" href='https://play.google.com/store/apps/details?id=gov.lbl.mygreencar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='<?php echo home_url(); ?>/wp-content/uploads/2017/12/google-play-badge-300x89.png'/></a>
 					</div>
 			 	<?php } ?>
+
+				<script type="text/javascript">
+					var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+					if ( /windows phone/i.test(userAgent) || /android/i.test(userAgent) ) { // hide Apps Store link
+						document.getElementsByClassName( "first-button" )[0].style.display = "none";
+					}
+					if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) { // hide Google Play button
+						document.getElementsByClassName( "second-button" )[0].style.display = "none";
+					}
+				</script>
 
 			 	<?php if ( get_post_meta($post->ID, '_playne2_buttontextcustom2', true) or get_post_meta($post->ID, '_playne2_buttontextcustom', true)) { ?>
 			 	</div>
