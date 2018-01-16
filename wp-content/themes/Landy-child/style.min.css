@@ -1,0 +1,71 @@
+/*
+Theme Name: Landy Child Theme
+Template: Landy
+*/
+@font-face{font-family:"Lovelo Black";src:url("/wp-content/themes/Landy-child/src/fonts/lovelo/Lovelo Black.otf");}
+.col-third,
+.col--half{position:relative;width:100%;min-height:1px;padding-right:1%;padding-left:1%;display:block;float:left;}
+.col-third{max-width:33%;}
+.col-half{max-width:41.666667%;}
+.col-first{padding-left:0;}
+.col-last{padding-right:0;}
+body{font-family:'Raleway';}
+#dynamic{opacity:0;}
+#dynamic.show{opacity:0.97;}
+h1, h2,
+#header h2,
+#header .lead,
+.home-title{font-family:'Lovelo Black';}
+#header .lead{padding-bottom:10px;letter-spacing:1.9px;}
+.first-button, .second-button{margin:30px 3%;}
+.first-button img, .second-button img{width:240px;transition:all 0.3s;-webkit-transition:all 0.3s;transform:scale(1);}
+.first-button img:hover, .second-button img:hover{transform:scale(1.02);}
+#about_mgc{text-align:center;font-size:20px;}
+.extra-bottom{margin-bottom:50px;}
+#header .main-button{font-size:16px;padding:24px 64px;}
+#our-mission:before{content:"";width:100%;height:100%;background:#000;opacity:0.5;position:absolute;}
+#our-mission, #our-mission h2{color:#ffffff;}
+#our-mission p{text-align:center;}
+.quote{font-style:italic;}
+.feature-inner{padding:100px 15%;}
+#footer .columns{margin:20px 0;}
+#berkeley-lab-logo{width:50%;margin:0 auto;}
+@media(min-width:1800px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld_large.jpg") !important;max-width:900px;}
+}
+@media(min-width:1675px) and (max-width:1799px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld.jpg") !important;width:40%;}
+#about-us .feature-text{width:60%;}
+}
+@media(min-width:1500px) and (max-width:1674px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld.jpg") !important;width:45%;}
+#about-us .feature-text{width:55%;}
+}
+@media(min-width:1300px) and (max-width:1499px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld_portrait.jpg") !important;width:30%;}
+#about-us .feature-text{width:70%;}
+}
+@media(min-width:1100px) and (max-width:1299px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld_portrait.jpg") !important;width:40%;}
+#about-us .feature-text{width:60%;}
+}
+@media(min-width:1000px) and (max-width:1099px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/vertical_arthur_rosenfeld.jpg") !important;width:35%;}
+#about-us .feature-text{width:65%;}
+}
+@media(min-width:900px) and (max-width:999px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/vertical_arthur_rosenfeld.jpg") !important;width:45%;}
+#about-us .feature-text{width:55%;}
+}
+@media(min-width:850px) and (max-width:899px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/vertical_arthur_rosenfeld.jpg") !important;width:50%;}
+#about-us .feature-text{width:50%;}
+}
+@media(min-width:570px) and (max-width:849px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld.jpg") !important;width:100%;padding-bottom:70%;}
+#about-us .feature-text{width:100%;}
+}
+@media(min-width:400px) and (max-width:569px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/arthur_rosenfeld_portrait.jpg") !important;padding-top:55%;padding-bottom:55%;}
+}
+@media(max-width:399px){#about-us .feature-img{background-image:url("/wp-content/uploads/2017/10/vertical_arthur_rosenfeld.jpg") !important;padding-top:72%;padding-bottom:72%;}
+}
+@media(max-width:768px){#ev-batteries img{content:url("/wp-content/uploads/2017/10/soc-650x650.png");}
+}
+@media(max-width:768px){.col-third,
+.col-half{width:100%;max-width:100%;margin-bottom:30px;}
+.col-third{margin-bottom:30px;}
+.col-half{margin-top:30px;}
+.col-first{padding-left:1%;}
+.col-last{padding-right:1%;}
+}
