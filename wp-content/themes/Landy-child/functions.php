@@ -16,7 +16,7 @@
 /*-----------------------------------------------------------------------------------*/
 
 	function landy_child_enqueue_styles() {
-	    wp_enqueue_style( 'landy-parent-style', get_template_directory_uri() . '/style.css?v=1' );
+	    wp_enqueue_style( 'landy-parent-style', get_template_directory_uri() . '/style.min.css?v=1' );
 	}
 	add_action( 'wp_enqueue_scripts', 'landy_child_enqueue_styles' );
 	
