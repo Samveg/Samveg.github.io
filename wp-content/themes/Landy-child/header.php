@@ -26,11 +26,19 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0" />
+
+	<!-- Open Graph tags. NB: the rest of the open graph tags are added in wp_head() by WordPress plugins -->
 	<meta property="og:url" content="http://mygreencar.com/" /> 
 	<meta property="og:image" content="http://mygreencar.com/wp-content/uploads/2017/10/website_showcase.png" /> 
 	<meta property="og:image:width" content="1440" /> 
 	<meta property="og:image:height" content="600" /> 	
 	<meta property="fb:app_id" content="334821777037080" /> 
+
+	<!-- add banner with link to app store -->
+	<meta name="apple-itunes-app" content="app-id=963429595">
+	<meta name="google-play-app" content="app-id=com.mygreencar">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/src/smartbanner/jquery.smartbanner.css'; ?>" type="text/css" media="screen">
+
 	<?php wp_head(); ?>
 </head>
 
