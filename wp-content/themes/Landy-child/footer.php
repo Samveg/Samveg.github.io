@@ -177,11 +177,11 @@
 				
 			</div>
 
-			<div id="berkeley-lab-logo">
+			<!--<div id="berkeley-lab-logo">
 				<a href="https://www.lbl.gov" target="_blank">
 					<img src="<?php echo wp_upload_dir()['baseurl'] . '/2017/11/white_berkeley_lab_logo.png'; ?>">
 				</a>
-			</div>
+			</div>-->
 
 	</div>
 	<?php } ?>
