@@ -1,3 +1,6 @@
+---
+# this is an empty front matter
+---
 <!DOCTYPE html>
 <html lang=en-US prefix="og: http://ogp.me/ns#">
 <head>
@@ -75,6 +78,7 @@
 <li id=menu-item-97 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-97"><a href=#our-mission>Mission</a></li>
 <li id=menu-item-86 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a href=#massive-database>Compare Cars</a></li>
 <li id=menu-item-108 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href=#ev-batteries>EV Range</a></li>
+<li id=menu-item-262 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href=#press-articles>Press</a></li>
 <li id=menu-item-50 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href=#about-us>About Us</a></li>
 </ul></div> </div>
 </div>
@@ -90,6 +94,7 @@
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-97"><a href=#our-mission>Mission</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a href=#massive-database>Compare Cars</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href=#ev-batteries>EV Range</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href=#press-articles>Press</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href=#about-us>About Us</a></li>
 </ul></div> </div>
 </div>
@@ -117,6 +122,7 @@
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-97"><a href=#our-mission>Mission</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-86"><a href=#massive-database>Compare Cars</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href=#ev-batteries>EV Range</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href=#press-articles>Press</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50"><a href=#about-us>About Us</a></li>
 </ul></div> </div>
 </div>
@@ -217,6 +223,38 @@ Welcome to MyGreenCar</div>
 <img width="1000" height="1000" src="/wp-content/uploads/2017/10/soc.png" class="attachment-large-image size-large-image wp-post-image" alt="States of Charge">
 </div>
 </div>
+</section>
+<section id="press-articles" class="clearfix gallery testimonial-slider odd">
+<div class="row clearfix">    
+        <h2 class="home-title centered" >Press</h2>
+        <div class="border-center extra-bottom-client">
+            <div class="border-block"></div>
+        </div>        
+    </div>
+    <div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
+        <div class="slider slider-nav">
+            {% for article in site.press_articles %}
+                <div>
+                    <div class="image-blockquote">
+                        <img width="564" height="168" src="{{ article.publisher_logo }}" class="attachment-large-image size-large-image wp-post-image" alt="Logo {{ article.publisher }}">
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="slider slider-for extra-bottom">
+        {% for article in site.press_articles %}
+            <div>
+                <div class="inner-blockquote">
+                    <div class="text-blockquote">
+                        <h6>{{ article.publisher }}</h6>
+                        {{ article.excerpt }}
+                        <a href="{{ article.link }}" target="_blank">Read the article</a></p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </section>
 <section id=about-us class="feature feature-left clearfix feature-left-111 odd">
 <div id=111 class="one-half float-left feature-text feature-text-111 wow fadeInLeft animated" data-wow-duration=1.5s>
