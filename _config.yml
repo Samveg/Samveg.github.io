@@ -36,4 +36,12 @@ markdown: kramdown
 #   - vendor/ruby/
 
 collections:
-- press_articles
+  - 
+    press_articles
+
+defaults:
+  - 
+    scope:
+      path: "assets/collections_images"
+    values:
+      collection_images: true

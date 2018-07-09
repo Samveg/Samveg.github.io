@@ -225,7 +225,7 @@ Welcome to MyGreenCar</div>
 </div>
 </section>
 <section id="press-articles" class="clearfix gallery testimonial-slider odd">
-<div class="row clearfix">    
+    <div class="row clearfix">    
         <h2 class="home-title centered" >Press</h2>
         <div class="border-center extra-bottom-client">
             <div class="border-block"></div>
@@ -233,17 +233,23 @@ Welcome to MyGreenCar</div>
     </div>
     <div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="slider slider-nav">
-            {% for article in site.press_articles %}
+            {% assign image_files = site.static_files | where: "collection_images", "true" %} <!-- get all the images in "assets/collections_images" -->
+            {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar -->
+                {% for image in image_files %} <!-- for each image in "assets/collections_images" -->
+                    {% if image.name == article.publisher_logo %} <!-- find the image corresponding to the article -->
+                        {% assign image_path = image.path %} <!-- save it in a reusable variable -->
+                    {% endif %}
+                {% endfor %}
                 <div>
                     <div class="image-blockquote">
-                        <img width="564" height="168" src="{{ article.publisher_logo }}" class="attachment-large-image size-large-image wp-post-image" alt="Logo {{ article.publisher }}">
+                        <img width="564" height="168" src="{{ image_path }}" class="attachment-large-image size-large-image wp-post-image" alt="Logo {{ article.publisher }}">
                     </div>
                 </div>
             {% endfor %}
         </div>
     </div>
     <div class="slider slider-for extra-bottom">
-        {% for article in site.press_articles %}
+        {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar -->
             <div>
                 <div class="inner-blockquote">
                     <div class="text-blockquote">
@@ -256,7 +262,7 @@ Welcome to MyGreenCar</div>
         {% endfor %}
     </div>
 </section>
-<section id=about-us class="feature feature-left clearfix feature-left-111 odd">
+<section id=about-us class="feature feature-left clearfix feature-left-111 even">
 <div id=111 class="one-half float-left feature-text feature-text-111 wow fadeInLeft animated" data-wow-duration=1.5s>
 <div class=feature-inner>
 <h2 class=home-title>About Us</h2>
