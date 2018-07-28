@@ -16,6 +16,10 @@
   color: #fff;
 }
 
+.partners .u-clients {
+  width: 16rem;
+}
+
 @media (max-width: 767px) {
   .u-devices-v1 {
     -webkit-transform: rotate(-10deg);
@@ -28,5 +32,8 @@
   .hero-wrapper {
     padding-top: 6rem;
     padding-bottom: 450px;
+  }
+  .partners .u-clients {
+    width: 11rem;
   }
 }
