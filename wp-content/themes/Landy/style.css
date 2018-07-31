@@ -903,3 +903,6 @@ html[xmlns] .slides{display:block;}
 .mobile-menu .row{text-align:center;}
 .collapse-menu-bg{background:rgba(0,0,0,0.2);}
 .mobile-menu .toggle-sidebar{font-family:'Raleway', 'Helvetica Neue', Helvetica, sans-serif;font-weight:bold;padding:15px 0px;margin:0 auto;color:#FFF;float:none;position:relative;font-size:16px;text-align:center;}
+.pressKitButton{background-color:#84c687;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;display:inline-block;cursor:pointer;color:#fff;font-family:'Lovelo Black', 'Helvetica Neue', Helvetica, sans-serif;font-weight:700;font-size:16px;padding:5px 17px;text-decoration:none;margin-left:10px;}
+.pressKitButton:hover{background-color:#69c26c}
+.pressKitButton:active{position:relative;top:1px}
