@@ -903,15 +903,3 @@ html[xmlns] .slides{display:block;}
 .mobile-menu .row{text-align:center;}
 .collapse-menu-bg{background:rgba(0,0,0,0.2);}
 .mobile-menu .toggle-sidebar{font-family:'Raleway', 'Helvetica Neue', Helvetica, sans-serif;font-weight:bold;padding:15px 0px;margin:0 auto;color:#FFF;float:none;position:relative;font-size:16px;text-align:center;}
-.pressKitButton{background-color:#84c687;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;display:inline-block;cursor:pointer;color:#fff;font-family:'Lovelo Black', 'Helvetica Neue', Helvetica, sans-serif;font-weight:700;font-size:16px;padding:5px 17px;text-decoration:none;margin-left:10px;}
-.pressKitButton:hover{background-color:#69c26c}
-.pressKitButton:active{position:relative;top:1px}
-.videoButton{margin:auto}
-.videoButton-4{position:relative;margin-top:20px;width:80%;max-width:600px}
-.videoButton-content{padding:25px 0 35px;background-color:rgba(205,255,205,0.35);background-image:url('/wp-content/uploads/2018/13/play-large.png');background-repeat:no-repeat;background-position:left 45%;font-size:24px;box-shadow:0 5px 10px rgba(0,0,0,.07);position:relative;z-index:1;color:rgba(0,0,0,.7);text-align:right;width:100%;padding-right:10%;padding-left:10%;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;cursor:pointer;font-family:'Lovelo Black','Helvetica Neue',Helvetica,sans-serif;font-weight:700;text-decoration:none}
-.videoButton-4:after{border-radius:0 0 50% 50%/0 0 20px 20px;bottom:0;box-shadow:0 10px 10px rgba(0,0,0,.1);content:"";height:20px;bottom:15px;left:10px;position:absolute;right:10px}
-.videoButton-content:active{box-shadow:0 0 10px rgba(0,0,0,.04);top:3px}
-.blurredBG{opacity:0.8;-webkit-filter:blur(7px);-moz-filter:blur(7px);-o-filter:blur(7px);-ms-filter:blur(7px);filter:blur(7px);position:absolute;display:block;width:100%;height:100%;top:0;overflow:hidden}
-.videoButton-content:hover {background-color:rgba(205,255,205,0.3)}
-.bgDemoVideo{background-image:url('/wp-content/uploads/2018/13/appdemovideo.gif');background-position:50% 45%}
-.bgMissionVideo{background-image:url('/wp-content/uploads/2018/13/appmissionvideo.gif');background-position:50% 45%}
