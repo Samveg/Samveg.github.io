@@ -37,7 +37,7 @@
 	<!-- add banner with link to app store -->
 	<meta name="apple-itunes-app" content="app-id=963429595">
 	<meta name="google-play-app" content="app-id=com.mygreencar">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri() . '/src/smartbanner/jquery.smartbanner.css'; ?>" type="text/css" media="screen">
+	<link rel="stylesheet" href="./wp-content/themes/Landy-child/src/smartbanner/jquery.smartbanner.css" type="text/css" media="screen">
 
 	<?php wp_head(); ?>
 </head>

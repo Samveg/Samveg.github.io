@@ -222,7 +222,9 @@
 	</script>
 
 	<!-- load script for banner to app store on mobiles -->
-	<script src="<?php echo get_template_directory_uri() . '/src/smartbanner/jquery.smartbanner.js'; ?>"></script>
+	<script src="./wp-content/themes/Landy-child/src/smartbanner/jquery.smartbanner.js"></script>
+	<script src="./wp-content/themes/Landy-child/src/lity/lity.min.js"></script>
+	<script src="./wp-content/themes/Landy-child/src/lity/lity.min.css"></script>
     <script type="text/javascript">
     	$().smartbanner();
     </script>
