@@ -47,7 +47,7 @@
 <link rel=alternate type=text/xml+oembed href="/wp-json/oembed/1.0/embed?url=%2F&#038;format=xml" />
 <style type=text/css>#header{background-image:url("/wp-content/uploads/2017/10/road-in-nature.jpg")}</style>
 <style type=text/css>#footer{background-image:url("/wp-content/uploads/2017/10/blurred-tailights.jpg")}</style>
-<style type=text/css>.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,.flex-control-paging li a.flex-active,.flex-control-paging li a:hover,.pricing-table .featured .pricing-header,#footer input[type="button"]:hover,.footer-widget input[type="button"]:hover,#footer input[type="submit"]:hover,.footer-widget input[type="submit"]:hover,#footer input[type="reset"]:hover,.footer-widget input[type="reset"]:hover{background:#82c785}#sidebar .widget input.search-form-input,#sidebar .widget_archive select,#sidebar .widget_categories select#cat,#sidebar select,#wp-calendar tbody td#today,.slick-dots li:hover,.slick-dots li.slick-active,.button-more,#respond .form-submit,body input.search-form-input,#sidebar .widget_tag_cloud a{border:2px solid #82c785}.flex-control-paging li a.flex-active,.flex-control-paging li a:hover,.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,#header input[type="button"],#header input[type="submit"],#header input[type="reset"],#footer input[type="button"],.footer-widget input[type="button"],#footer input[type="submit"],.footer-widget input[type="submit"],#footer input[type="reset"],.footer-widget input[type="reset"]{border:2px solid #82c785}.nav-toggle,#header input[type="button"]:hover,.header-widget input[type="button"]:hover,#header input[type="submit"]:hover,.header-widget input[type="submit"]:hover,#header input[type="reset"]:hover,.header-widget input[type="reset"]:hover,.slick-dots li:hover,.slick-dots li.slick-active,.border-block,.button-more:hover,#respond .form-submit:hover,#wp-calendar tr th,#sidebar .widget_tag_cloud a:hover{background:#82c785}#sidebar .widget a:hover,#sidebar .widget ul li a:before,#sidebar .widget_recent_comments ul li:before,.button,.button.normal,body a,.entry-title a:hover,#commentform #submit,#sidebar select,#sidebar .widget input.search-form-input,#sidebar .widget_archive select,#sidebar .widget_categories select#cat,#wp-calendar tbody td#today,.button-more,body input.search-form-input,#sidebar .widget_tag_cloud a{color:#82c785}#footer{background-color:#417d53}.load8 .loader{border-left:1.1em solid #82c785}</style>
+<style type=text/css>.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,.flex-control-paging li a.flex-active,.flex-control-paging li a:hover,.pricing-table .featured .pricing-header,#footer input[type="button"]:hover,.footer-widget input[type="button"]:hover,#footer input[type="submit"]:hover,.footer-widget input[type="submit"]:hover,#footer input[type="reset"]:hover,.footer-widget input[type="reset"]:hover{background:#82c785}#sidebar .widget input.search-form-input,#sidebar .widget_archive select,#sidebar .widget_categories select#cat,#sidebar select,#wp-calendar tbody td#today,.slick-dots li:hover,.slick-dots li.slick-active,.button-more,#respond .form-submit,body input.search-form-input,#sidebar .widget_tag_cloud a{border:2px solid #82c785}.flex-control-paging li a.flex-active,.flex-control-paging li a:hover,.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,#header input[type="button"],#header input[type="submit"],#header input[type="reset"],#footer input[type="button"],.footer-widget input[type="button"],#footer input[type="submit"],.footer-widget input[type="submit"],#footer input[type="reset"],.footer-widget input[type="reset"]{border:2px solid #82c785}.nav-toggle,#header input[type="button"]:hover,.header-widget input[type="button"]:hover,#header input[type="submit"]:hover,.header-widget input[type="submit"]:hover,#header input[type="reset"]:hover,.header-widget input[type="reset"]:hover,.slick-dots li:hover,.slick-dots li.slick-active,.border-block,.button-more:hover,#respond .form-submit:hover,#wp-calendar tr th,#sidebar .widget_tag_cloud a:hover{background:#82c785}#sidebar .widget a:hover,#sidebar .widget ul li a:before,#sidebar .widget_recent_comments ul li:before,.button,.button.normal,body a,.entry-title a:hover,#commentform #submit,#sidebar select,#sidebar .widget input.search-form-input,#sidebar .widget_archive select,#sidebar .widget_categories select#cat,#wp-calendar tbody td#today,.button-more,body input.search-form-input,#sidebar .widget_tag_cloud a{color:#73b493}#footer{background-color:#417d53}.load8 .loader{border-left:1.1em solid #82c785}</style>
 <style type=text/css>.recentcomments a{display:inline!important;padding:0!important;margin:0!important}</style>
 <link rel=icon href=/wp-content/uploads/2017/10/large-logo-MGC.png sizes=32x32 />
 <link rel=icon href=/wp-content/uploads/2017/10/large-logo-MGC.png sizes=192x192 />
@@ -226,43 +226,50 @@ Welcome to MyGreenCar</div>
 </div>
 </section>
 <section id="press-articles" class="clearfix gallery testimonial-slider odd">
-    <div class="row clearfix">    
-        <h2 class="home-title centered" >Press</h2>
-        <div class="border-center extra-bottom-client">
-            <div class="border-block"></div>
-            Want to talk about us? <a href="mgc_press_kit.zip" class="pressKitButton">Download press kit</a>
-        </div>
-    </div>
-    <!-- <div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
-        <div class="slider slider-nav">
-            {% assign image_files = site.static_files | where: "collection_images", "true" %} <!-- get all the images in "assets/collections_images" --
-            {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar --
-                {% for image in image_files %} <!-- for each image in "assets/collections_images" --
-                    {% if image.name == article.publisher_logo %} <!-- find the image corresponding to the article --
-                        {% assign image_path = image.path %} <!-- save it in a reusable variable --
-                    {% endif %}
-                {% endfor %}
-                <div>
-                    <div class="image-blockquote">
-                        <img width="564" height="168" src="{{ image_path }}" class="attachment-large-image size-large-image wp-post-image" alt="Logo {{ article.publisher }}">
-                    </div>
-                </div>
+<div class="row clearfix">    
+<h2 class="home-title centered" >Press</h2>
+<div class="border-center">
+<div class="border-block"></div>
+</div>
+<div class="extra-bottom-client">
+<p style="margin-bottom: 30px;">Do you want to talk about us in an article or a post? Thanks a lot! Here is our Press Kit to help you in your work.</p>
+<p style="margin-bottom: 80px;"><a href="/mgc_press_kit.zip" class="action-btn">Download Press Kit</a></p>
+</div>
+</div>
+<div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
+    <div class="slider slider-nav">
+        {% assign image_files = site.static_files | where: "collection_images", "true" %} <!-- get all the images in "assets/collections_images" -->
+        {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar -->
+            {% for image in image_files %} <!-- for each image in "assets/collections_images" -->
+                {% if image.name == article.publisher_logo %} <!-- find the image corresponding to the article -->
+                    {% assign image_path = image.path %} <!-- save it in a reusable variable -->
+                {% endif %}
             {% endfor %}
-        </div>
-    </div>
-    <div class="slider slider-for extra-bottom">
-        {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar --
             <div>
-                <div class="inner-blockquote">
-                    <div class="text-blockquote">
-                        <h6>{{ article.publisher }}</h6>
-                        {{ article.excerpt }}
-                        <a href="{{ article.link }}" target="_blank">Read the article</a></p>
-                    </div>
+                <div class="image-blockquote">
+                    <img width="564" height="168" src="{{ image_path }}" class="attachment-large-image size-large-image wp-post-image" alt="Logo {{ article.publisher }}">
                 </div>
             </div>
         {% endfor %}
-    </div> -->
+    </div>
+</div>
+<div class="slider slider-for extra-bottom">
+    {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar -->
+        <div>
+            <div class="inner-blockquote">
+                <div class="text-blockquote">
+                    <h6>{{ article.publisher }}</h6>
+                    {{ article.excerpt }}
+                    {% if article.type == 'article' %}
+                        <a href="{{ article.link }}" target="_blank">Read the article</a>
+                    {% elsif article.type == 'video' %}
+                        <a href="{{ article.link }}" target="_blank">Watch the video</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
 </section>
 <section id=about-us class="feature feature-left clearfix feature-left-111 even">
 <div id=111 class="one-half float-left feature-text feature-text-111 wow fadeInLeft animated" data-wow-duration=1.5s>
