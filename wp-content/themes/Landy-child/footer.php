@@ -209,6 +209,8 @@
 <!-- Load the scripts -->
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 	<?php wp_footer(); ?>
+	<link rel="stylesheet" href="./wp-content/themes/Landy-child/src/bootstrap/css/bootstrap.min.css">
+	<script src="./wp-content/themes/Landy-child/src/bootstrap/js/bootstrap.min.js"></script>
 	<script>
 		jQuery(document).ready( function() {
 		    jQuery( ".menu-main-menu-container li a" ).click( function() {
@@ -218,6 +220,11 @@
 		            scrollTop: jQuery( id ).offset().top + offset
 		        }, 'slow');
 		    });
+		    setTimeout(function () {
+				jQuery("#fleet-version-modal").modal({
+    				backdrop: false
+				});
+			}, 3000);
 		});
 	</script>
 
@@ -226,7 +233,7 @@
 	<script src="./wp-content/themes/Landy-child/src/lity/lity.min.js"></script>
 	<script src="./wp-content/themes/Landy-child/src/lity/lity.min.css"></script>
     <script type="text/javascript">
-    	$().smartbanner();
+    	jQuery().smartbanner();
     </script>
 </body>
 </html>

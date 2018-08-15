@@ -375,4 +375,18 @@
 
 	</section>
 
+	<!-- Modal window redirecting to the fleet version -->
+	<div class="modal fade" id="fleet-version-modal">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 class="modal-title">Are you a fleet manager?</h2>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<p>Track your vehicles, manage your fleet, simulate the models you are interested in and take the risk and uncertainty out of vehicle purchasing.</p>
+					<div class="modal-action"><a class="action-btn" href="fleet">Check out our fleet version</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 <div id="content-wrapper" class="clearfix">
