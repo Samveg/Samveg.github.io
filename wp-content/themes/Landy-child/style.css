@@ -21,6 +21,7 @@ body{font-family:'Raleway'}
 .action-btn {background-color: #8CDBB3;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;display: inline-block;cursor: pointer;color: #fff;font-family: 'Lovelo Black', 'Helvetica Neue', Helvetica, sans-serif;font-weight: 700;font-size: 16px;padding: 6px 16px 4px;text-decoration: none;box-shadow: #5A8C72 0px 2px} 
 .action-btn:hover {background-color:#A0E1C0} 
 .action-btn:active {background-color: #73B493;position: relative; top: 1px;box-shadow: #406452 0px 1px} 
+.action-btn .fa{margin-right: 10px;font-size: 24px}
 #dynamic{opacity: 0}
 #dynamic.show{opacity: 0.97}
 h1, h2,
