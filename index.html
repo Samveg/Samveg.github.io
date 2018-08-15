@@ -149,6 +149,18 @@ Welcome to MyGreenCar</div>
 </div>
 </div>
 </section>
+<div class="modal fade" id="fleet-version-modal">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+<div class="modal-body">
+<h2 class="modal-title">Are you a fleet manager?</h2>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<p>Track your vehicles, manage your fleet, simulate the models you are interested in and take the risk and uncertainty out of vehicle purchasing.</p>
+<div class="modal-action"><a class="action-btn" href="/fleet">Check out our fleet version</a></div>
+</div>
+</div>
+</div>
+</div>
 <div id=content-wrapper class=clearfix>
 <section id=about class="clearfix even">
 <div class="row clearfix">
@@ -321,6 +333,7 @@ Welcome to MyGreenCar</div>
 </section>
 </div>
 </div>
+<link rel="stylesheet" href="/wp-content/themes/Landy-child/src/bootstrap/css/bootstrap.min.css"> 
 <link rel=stylesheet id=style-css href='/wp-content/themes/Landy-child/style.min.css?v=1' type=text/css media=all />
 <link rel=stylesheet id=media-queries-css href='/wp-content/themes/Landy/media-queries.css' type=text/css media=screen />
 <link rel=stylesheet id=animate-css href='/wp-content/themes/Landy/includes/css/animate.min.css' type=text/css media=screen />
@@ -330,6 +343,7 @@ Welcome to MyGreenCar</div>
 <link rel=stylesheet id=lightbox_css-css href='/wp-content/themes/Landy/includes/lightbox/css/lightbox.css' type=text/css media=screen />
 <script type=text/javascript src='/wp-includes/js/jquery/jquery.js'></script>
 <script type=text/javascript src='/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script src="/wp-content/themes/Landy-child/src/bootstrap/js/bootstrap.min.js"></script> 
 <link rel=stylesheet type=text/css href="//fonts.googleapis.com/css?family=Raleway" />
 <script type=text/javascript src='/wp-content/themes/Landy/includes/js/scripts.js'></script>
 <script type=text/javascript src='/wp-content/themes/Landy/includes/js/navigation.js'></script>
@@ -351,6 +365,6 @@ Welcome to MyGreenCar</div>
 <link href="/wp-content/themes/Landy-child/src/lity/lity.min.css" rel="stylesheet">
 <script src="/wp-content/themes/Landy-child/src/lity/lity.min.js"></script>
 <script type=text/javascript src="/wp-content/themes/Landy-child/src/smartbanner/jquery.smartbanner.js"></script>
-<script type=text/javascript>(function($){$(document).ready(function(){$(".menu-main-menu-container li a").click(function(){var id=this.getAttribute('href',2);$('html,body').animate({scrollTop:$(id).offset().top-60},'slow');});$.smartbanner();});})(jQuery);</script>
+<script type=text/javascript>(function($){$(document).ready(function(){$(".menu-main-menu-container li a").click(function(){var id=this.getAttribute('href',2);$('html,body').animate({scrollTop:$(id).offset().top-60},'slow');});$.smartbanner();setTimeout(function(){$("#fleet-version-modal").modal({backdrop: false});},10000);});})(jQuery);</script>
 </body>
 </html>
