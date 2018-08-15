@@ -233,13 +233,13 @@ Welcome to MyGreenCar</div>
             Want to talk about us? <a href="mgc_press_kit.zip" class="pressKitButton">Download press kit</a>
         </div>
     </div>
-    <div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
+    <!-- <div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
         <div class="slider slider-nav">
-            {% assign image_files = site.static_files | where: "collection_images", "true" %} <!-- get all the images in "assets/collections_images" -->
-            {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar -->
-                {% for image in image_files %} <!-- for each image in "assets/collections_images" -->
-                    {% if image.name == article.publisher_logo %} <!-- find the image corresponding to the article -->
-                        {% assign image_path = image.path %} <!-- save it in a reusable variable -->
+            {% assign image_files = site.static_files | where: "collection_images", "true" %} <!-- get all the images in "assets/collections_images" --
+            {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar --
+                {% for image in image_files %} <!-- for each image in "assets/collections_images" --
+                    {% if image.name == article.publisher_logo %} <!-- find the image corresponding to the article --
+                        {% assign image_path = image.path %} <!-- save it in a reusable variable --
                     {% endif %}
                 {% endfor %}
                 <div>
@@ -251,7 +251,7 @@ Welcome to MyGreenCar</div>
         </div>
     </div>
     <div class="slider slider-for extra-bottom">
-        {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar -->
+        {% for article in site.press_articles %} <!-- for each press article talking about MyGreenCar --
             <div>
                 <div class="inner-blockquote">
                     <div class="text-blockquote">
@@ -262,7 +262,7 @@ Welcome to MyGreenCar</div>
                 </div>
             </div>
         {% endfor %}
-    </div>
+    </div> -->
 </section>
 <section id=about-us class="feature feature-left clearfix feature-left-111 even">
 <div id=111 class="one-half float-left feature-text feature-text-111 wow fadeInLeft animated" data-wow-duration=1.5s>
