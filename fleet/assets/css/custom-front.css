@@ -1,0 +1,39 @@
+.mgc-hero-gradient {
+  background-image: linear-gradient(to top left, #2F9260, #5CC499);
+}
+
+.mcg-hero-browser {
+  width: 700px;
+}
+
+.mcg-hero-browser > figure {
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 6px rgba(30, 32, 34, 0.05);
+}
+
+.btn-primary, .u-btn-primary {
+  color: #fff;
+}
+
+.partners .u-clients {
+  width: 16rem;
+}
+
+@media (max-width: 767px) {
+  .u-devices-v1 {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+    top: auto;
+    bottom: 5rem;
+    left: -50%;
+    width: 35rem;
+  }
+  .hero-wrapper {
+    padding-top: 6rem;
+    padding-bottom: 450px;
+  }
+  .partners .u-clients {
+    width: 11rem;
+  }
+}

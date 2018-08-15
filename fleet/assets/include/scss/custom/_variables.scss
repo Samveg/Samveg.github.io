@@ -1,0 +1,25 @@
+//
+// File for your custom SCSS variables
+//
+
+
+// Font Families
+$g-font-family-base:       								                "Roboto", Helvetica, Arial, sans-serif;
+
+$g-headings-font-weight:                                  300;
+
+// MGC Color Scheme
+$mgc-green:                                                #8CDBB3;
+$mgc-green-darker:                                         #73b493;
+$mgc-green-lighter:                                        #a0e1c0;
+
+
+// Theme Colors
+$g-primary:                                                 $mgc-green;
+$g-primary-darker:                                          $mgc-green-darker;
+$g-primary-lighter:          								                $mgc-green-lighter;
+
+$g-accent-colors: ();
+$g-accent-colors: map-merge((
+  "primary":    																	          $g-primary,
+), $g-accent-colors);
