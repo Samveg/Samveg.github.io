@@ -435,8 +435,19 @@ a:hover .gif-content img {
 
 	.gif-content .watch-button i {
 		margin-top: 0px;
+		font-size: 40px;
 	}
 
+	.gif-content h2 {
+		font-size: 32px;
+	}
+
+}
+
+@media( max-width: 374px ) {
+	.gif-content h2 {
+		font-size: 24px;
+	}
 }
 
 @media( min-width: 850px ) {
@@ -467,27 +478,31 @@ a:hover .gif-content img {
 
 @media( max-width: 768px ) {
 
-  .col-third,
-  .col-half {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 30px;
-  }
+	.col-third,
+	.col-half {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
 
-  .col-third {
-    margin-bottom: 30px;
-  }
+	.col-third {
+		margin-bottom: 30px;
+	}
 
-  .col-half {
-    margin-top: 30px;
-  }
+	.col-half {
+		margin-top: 30px;
+	}
 
-  .col-first {
-    padding-left: 1%;
-  }
+	.col-first {
+		padding-left: 1%;
+	}
 
-  .col-last {
-    padding-right: 1%;
-  }
+	.col-last {
+		padding-right: 1%;
+	}
+
+	.modal {
+		right: auto !important;
+	}
 
 }
