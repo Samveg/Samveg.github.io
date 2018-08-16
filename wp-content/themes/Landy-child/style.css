@@ -224,6 +224,12 @@ h2.modal-title {
 	background: #000;
 	text-align: center;
 	overflow: hidden;
+	width: 49.95%;
+	height: 100%;
+}
+
+.gif-half:first-child {
+	margin-right: 0.1%;
 }
 
 .gif-content {
@@ -450,19 +456,6 @@ a:hover .gif-content img {
 	}
 }
 
-@media( min-width: 850px ) {
-	
-	#presentation-videos .gif-half {
-		width: 49.95%;
-		height: 100%;
-	}
-
-	#presentation-videos .gif-half:first-child {
-		margin-right: 0.1%;
-	}
-
-}
-
 @media( max-width: 850px ) {
 	
 	#presentation-videos .gif-half {
@@ -471,6 +464,7 @@ a:hover .gif-content img {
 	}
 
 	#presentation-videos .gif-half:first-child {
+		margin-right: 0;
 		margin-bottom: 0.2%;
 	}
 
