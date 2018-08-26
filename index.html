@@ -151,10 +151,10 @@ Welcome to MyGreenCar</div>
 </h2>
 <div class=button-area>
 <div class=first-button>
-<a target="_blank" href="https://itunes.apple.com/us/app/mygreencar/id963429595?mt=8"><img alt="Download on the App Store" src="/wp-content/uploads/2017/12/AppStoreBadge-300x90.png"/></a>
+<a target="_blank" href="https://itunes.apple.com/us/app/mygreencar/id963429595?mt=8" id="apple-store-btn"><img alt="Download on the App Store" src="/wp-content/uploads/2017/12/AppStoreBadge-300x90.png"/></a>
 </div>
 <div class=second-button>
-<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mygreencar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="/wp-content/uploads/2017/12/google-play-badge-300x89.png"/></a>
+<a target="_blank" href="https://play.google.com/store/apps/details?id=com.mygreencar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" id="google-play-btn"><img alt="Get it on Google Play" src="/wp-content/uploads/2017/12/google-play-badge-300x89.png"/></a>
 </div>
 </div>
 <script type="text/javascript">var userAgent=navigator.userAgent||navigator.vendor||window.opera;if(/windows phone/i.test(userAgent)||/android/i.test(userAgent)){document.getElementsByClassName("first-button")[0].style.display="none";}if(/iPad|iPhone|iPod/.test(userAgent)&&!window.MSStream){document.getElementsByClassName("second-button")[0].style.display="none";}</script>
@@ -406,6 +406,6 @@ Welcome to MyGreenCar</div>
 <link href="/wp-content/themes/Landy-child/src/lity/lity.min.css" rel="stylesheet">
 <script src="/wp-content/themes/Landy-child/src/lity/lity.min.js"></script>
 <script type=text/javascript src="/wp-content/themes/Landy-child/src/smartbanner/jquery.smartbanner.js"></script>
-<script type=text/javascript>(function($){$(document).ready(function(){$(".menu-main-menu-container li a").click(function(){var id=this.getAttribute('href',2);$('html,body').animate({scrollTop:$(id).offset().top-60},'slow');});$.smartbanner();setTimeout(function(){$("#fleet-version-modal").modal({backdrop: false});},10000);});})(jQuery);</script>
+<script type=text/javascript>(function($){$(document).ready(function(){$(".menu-main-menu-container li a").click(function(){var id=this.getAttribute('href',2);$('html,body').animate({scrollTop:$(id).offset().top-60},'slow');});$.smartbanner();setTimeout(function(){$("#fleet-version-modal").modal({backdrop: false});},10000);$('#apple-store-btn').click(function(){fbq('track','Apple Store Clicked');});$('#google-play-btn').click(function(){fbq('track','Play Store Clicked');});});})(jQuery);</script>
 </body>
 </html>
