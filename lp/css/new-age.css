@@ -102,6 +102,25 @@ header.masthead .header-content {
 header.masthead .header-content h1 {
   font-size: 30px;
 }
+header.masthead .header-content h2 {
+  font-size: 1.5rem;
+}
+@media (max-width: 320px) {
+  header.masthead .header-content h1 {
+    font-size: 1.5rem;
+  }
+  header.masthead .header-content h2 {
+    font-size: 1.2rem;
+  }
+  header.masthead .header-content .my-5 {
+    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+  }
+  header.masthead {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
 
 header.masthead .device-container {
   max-width: 325px;
