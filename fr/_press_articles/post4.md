@@ -2,7 +2,7 @@
 publisher: "LabCorps film series"
 publisher_logo: "ipo_lbl.png"
 title: "Who Will Buy My App?"
-excerpt: "<p>A six video series follows the MyGreenCar team’s experience through the ups and downs of the customer discovery process. Will the app make it to the marketplace? You’ll just have to watch.</p>"
+excerpt: "<p>Une série de six vidéos suit l’équipe MyGreenCar alors qu’elle navigue les hauts et les bas du processus de découverte des clients. L’application sera-t-elle mise sur le marché? Vous découvrirez la réponse dans les vidéos.</p>"
 link: "https://ipo.lbl.gov/mgc_lab-corps/"
 type: "article"
 ---
