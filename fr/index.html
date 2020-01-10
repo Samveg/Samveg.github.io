@@ -203,11 +203,11 @@
                 <div class=button-area>
                     <div class=first-button>
                         <a target="_blank" href="https://itunes.apple.com/us/app/mygreencar/id963429595?mt=8" id="apple-store-btn"><img
-                                alt="Download on the App Store" src="/wp-content/uploads/2017/12/AppStoreBadge-300x90.png" /></a>
+                                alt="Télécharger dans l'app store" src="wp-content/uploads/app-store-badge.svg" width="300" height="90"/></a>
                     </div>
                     <div class=second-button>
                         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mygreencar&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-                            id="google-play-btn"><img alt="Get it on Google Play" src="/wp-content/uploads/2017/12/google-play-badge-300x89.png" /></a>
+                            id="google-play-btn"><img alt="Disponible sur Google Play" src="wp-content/uploads/google-play-badge.png" width="300" height="90"/></a>
                     </div>
                 </div>
                 <script type="text/javascript">var userAgent = navigator.userAgent || navigator.vendor || window.opera; if (/windows phone/i.test(userAgent) || /android/i.test(userAgent)) { document.getElementsByClassName("first-button")[0].style.display = "none"; } if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) { document.getElementsByClassName("second-button")[0].style.display = "none"; }</script>
@@ -235,9 +235,7 @@
             <section id=about class="clearfix even">
                 <div class="row clearfix">
                     <div class="full-image clearfix extra-bottom wow fadeInUp animated" data-wow-duration=1.5s>
-                        <img width=800 height=80 src=/wp-content/uploads/2017/10/save_green_be_green.png class="attachment-large-image size-large-image wp-post-image"
-                            alt="Save Green. Be Green." srcset="/wp-content/uploads/2017/10/save_green_be_green.png 800w, /wp-content/uploads/2017/10/save_green_be_green-300x30.png 300w, /wp-content/uploads/2017/10/save_green_be_green-768x77.png 768w, /wp-content/uploads/2017/10/save_green_be_green-425x43.png 425w, /wp-content/uploads/2017/10/save_green_be_green-650x65.png 650w"
-                            sizes="(max-width: 800px) 100vw, 800px" /> </div>
+                         </div>
                     <p id="about_mgc">MyGreenCar est votre portail d’essai de conduite virtuel. Comparez les voitures selon vos habitudes de conduite. </p>
                 </div>
             </section>
@@ -340,59 +338,7 @@
                     </div>
                 </div>
             </section>
-            <section id="press-articles" class="clearfix gallery testimonial-slider odd">
-                <div class="row clearfix">
-                    <h2 class="home-title centered">Presse</h2>
-                    <div class="border-center">
-                        <div class="border-block"></div>
-                    </div>
-                    <div class="extra-bottom-client">
-                        <p style="margin-bottom: 30px;">Vous souhaitez parler de nous dans un article ou une publication? Merci beaucoup! Voici notre dossier de presse afin de vous aider dans votre travail.</p>
-                        <p style="margin-bottom: 80px;"><a href="/mgc_press_kit.zip" class="action-btn">Télécharger le dossier de presse</a></p>
-                    </div>
-                </div>
-                <div class="slider center-slick-testimonials wow fadeInUp animated" data-wow-duration="1.5s">
-                    <div class="slider slider-nav">
-                        {% assign image_files = site.static_files | where: "collection_images", "true" %}
-                        <!-- get all the images in "assets/collections_images" -->
-                        {% for article in site.press_articles %}
-                        <!-- for each press article talking about MyGreenCar -->
-                        {% for image in image_files %}
-                        <!-- for each image in "assets/collections_images" -->
-                        {% if image.name == article.publisher_logo %}
-                        <!-- find the image corresponding to the article -->
-                        {% assign image_path = image.path %}
-                        <!-- save it in a reusable variable -->
-                        {% endif %}
-                        {% endfor %}
-                        <div>
-                            <div class="image-blockquote">
-                                <img width="564" height="168" src="{{ image_path }}" class="attachment-large-image size-large-image wp-post-image"
-                                    alt="Logo {{ article.publisher }}">
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-                <div class="slider slider-for extra-bottom">
-                    {% for article in site.press_articles %}
-                    <!-- for each press article talking about MyGreenCar -->
-                    <div>
-                        <div class="inner-blockquote">
-                            <div class="text-blockquote">
-                                <h6>{{ article.publisher }}</h6>
-                                {{ article.excerpt }}
-                                {% if article.type == 'article' %}
-                                <a href="{{ article.link }}" target="_blank">Lire l’article.</a>
-                                {% elsif article.type == 'video' %}
-                                <a href="{{ article.link }}" target="_blank">Voir la vidéo</a>
-                                {% endif %}
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </section>
+            
             <section id=about-us class="feature feature-left clearfix feature-left-111 even">
                 <div id=111 class="one-half float-left feature-text feature-text-111 wow fadeInLeft animated"
                     data-wow-duration=1.5s>
